@@ -6,12 +6,68 @@
 
 | Tool Name | Description | Last Commit |
 |-----------|-------------|-------------|
-| [ElectricEye](https://github.com/jonrau1/ElectricEye) | A multi-cloud, multi-SaaS Python CLI tool for Asset Management, Security Posture Management & Attack Surface Monitoring supporting 100s of services and evaluations. | [![last-commit](https://badgen.net/github/last-commit/jonrau1/ElectricEye)](https://github.com/jonrau1/ElectricEye) |
+| [ElectricEye](https://github.com/jonrau1/ElectricEye) | A multi-cloud, multi-SaaS Python CLI tool for Asset Management, Security Posture Management & Attack Surface Monitoring supporting 100s of services. | [![last-commit](https://badgen.net/github/last-commit/jonrau1/ElectricEye)](https://github.com/jonrau1/ElectricEye) |
 | [cloud-security-remediation-guides](https://github.com/aquasecurity/cloud-security-remediation-guides) | Security Remediation Guides | [![last-commit](https://badgen.net/github/last-commit/aquasecurity/cloud-security-remediation-guides)](https://github.com/aquasecurity/cloud-security-remediation-guides) |
 | [SharpDPAPI](https://github.com/GhostPack/SharpDPAPI) | C# port of some Mimikatz DPAPI functionality for extracting UserAuthentication cookies from workstations. | [![last-commit](https://badgen.net/github/last-commit/GhostPack/SharpDPAPI)](https://github.com/GhostPack/SharpDPAPI) |
 | [CredMaster](https://github.com/knavesec/CredMaster) | Refactored & improved CredKing password spraying tool with IP rotation via FireProx APIs. | [![last-commit](https://badgen.net/github/last-commit/knavesec/CredMaster)](https://github.com/knavesec/CredMaster) |
 | [SnaffPoint](https://github.com/nheiniger/SnaffPoint) | A tool for pentesters to find security issues in SharePoint. | [![last-commit](https://badgen.net/github/last-commit/nheiniger/SnaffPoint)](https://github.com/nheiniger/SnaffPoint) |
 | [cloud-security-vm](https://github.com/WithSecureLabs/cloud-security-vm) | Ansible/Vagrant/Packer files to create a virtual machine for cloud security assessments. | [![last-commit](https://badgen.net/github/last-commit/WithSecureLabs/cloud-security-vm)](https://github.com/WithSecureLabs/cloud-security-vm) |
+
+---
+
+## AWS
+
+### Security Posture Management
+
+| Tool Name | Description | Last Commit |
+|-----------|-------------|-------------|
+| [cloudcustodian](https://github.com/cloud-custodian/cloud-custodian) | A tool to manage and enforce cloud security and compliance policies in AWS environments. | [![last-commit](https://badgen.net/github/last-commit/cloud-custodian/cloud-custodian)](https://github.com/cloud-custodian/cloud-custodian) |
+| [Skyscanner/cfripper](https://github.com/Skyscanner/cfripper) | A tool for analyzing AWS CloudFormation templates and detecting misconfigurations. | [![last-commit](https://badgen.net/github/last-commit/Skyscanner/cfripper)](https://github.com/Skyscanner/cfripper) |
+| [aws-incident-response](https://github.com/easttimor/aws-incident-response) | Tools and scripts for AWS incident response and forensics. | [![last-commit](https://badgen.net/github/last-commit/easttimor/aws-incident-response)](https://github.com/easttimor/aws-incident-response) |
+| [amazon-guardduty-tester](https://github.com/awslabs/amazon-guardduty-tester) | A tool to simulate and test AWS GuardDuty alerts. | [![last-commit](https://badgen.net/github/last-commit/awslabs/amazon-guardduty-tester)](https://github.com/awslabs/amazon-guardduty-tester) |
+| [aws-config-rules](https://github.com/awslabs/aws-config-rules) | A repository of AWS Config Rules that help automate the process of monitoring security and compliance. | [![last-commit](https://badgen.net/github/last-commit/awslabs/aws-config-rules)](https://github.com/awslabs/aws-config-rules) |
+
+### IAM & Permissions Management
+
+| Tool Name | Description | Last Commit |
+|-----------|-------------|-------------|
+| [aws-recon](https://github.com/joshlarsen/aws-recon) | A tool for gathering IAM, S3, EC2, and other AWS resource information for a targeted account. | [![last-commit](https://badgen.net/github/last-commit/joshlarsen/aws-recon)](https://github.com/joshlarsen/aws-recon) |
+| [iam-vulnerable](https://github.com/BishopFox/iam-vulnerable) | Tool to identify vulnerable IAM roles and policies in AWS environments. | [![last-commit](https://badgen.net/github/last-commit/BishopFox/iam-vulnerable)](https://github.com/BishopFox/iam-vulnerable) |
+| [iam-policies](https://github.com/welldone-cloud/aws-lint-iam-policies) | Linter for AWS IAM policies that checks for overly permissive permissions. | [![last-commit](https://badgen.net/github/last-commit/welldone-cloud/aws-lint-iam-policies)](https://github.com/welldone-cloud/aws-lint-iam-policies) |
+| [cloudbrute](https://github.com/0xsha/cloudbrute) | A tool for brute-forcing AWS IAM credentials using various wordlists. | [![last-commit](https://badgen.net/github/last-commit/0xsha/cloudbrute)](https://github.com/0xsha/cloudbrute) |
+| [findmytakeover](https://github.com/anirudhbiyani/findmytakeover) | Tool for finding AWS IAM roles that are potentially vulnerable to takeover. | [![last-commit](https://badgen.net/github/last-commit/anirudhbiyani/findmytakeover)](https://github.com/anirudhbiyani/findmytakeover) |
+
+### Reconnaissance & Enumeration
+
+| Tool Name | Description | Last Commit |
+|-----------|-------------|-------------|
+| [cloud_enum](https://github.com/initstring/cloud_enum) | A tool for AWS enumeration and information gathering. | [![last-commit](https://badgen.net/github/last-commit/initstring/cloud_enum)](https://github.com/initstring/cloud_enum) |
+| [findmytakeover](https://github.com/anirudhbiyani/findmytakeover) | Identifies possible takeover vulnerabilities in AWS IAM. | [![last-commit](https://badgen.net/github/last-commit/anirudhbiyani/findmytakeover)](https://github.com/anirudhbiyani/findmytakeover) |
+| [aws_pwn](https://github.com/dagrz/aws_pwn/blob/master/elevation/bouncy_bouncy_cloudy_cloud.py) | A script for exploiting AWS misconfigurations. | [![last-commit](https://badgen.net/github/last-commit/dagrz/aws_pwn)](https://github.com/dagrz/aws_pwn) |
+
+### Incident Response & Forensics
+
+| Tool Name | Description | Last Commit |
+|-----------|-------------|-------------|
+| [AWS-Attack](https://github.com/blackbotsecurity/AWS-Attack) | A repository of attack scripts for AWS environments. | [![last-commit](https://badgen.net/github/last-commit/blackbotsecurity/AWS-Attack)](https://github.com/blackbotsecurity/AWS-Attack) |
+| [stratus-red-team](https://github.com/datadog/stratus-red-team) | A tool for simulating AWS security incidents. | [![last-commit](https://badgen.net/github/last-commit/datadog/stratus-red-team)](https://github.com/datadog/stratus-red-team) |
+
+### S3 & Storage
+
+| Tool Name | Description | Last Commit |
+|-----------|-------------|-------------|
+| [S3Scanner](https://github.com/sa7mon/S3Scanner) | A tool for scanning Amazon S3 buckets for exposed data. | [![last-commit](https://badgen.net/github/last-commit/sa7mon/S3Scanner)](https://github.com/sa7mon/S3Scanner) |
+| [bear/s3scan](https://github.com/bear/s3scan) | A tool for identifying sensitive files in Amazon S3. | [![last-commit](https://badgen.net/github/last-commit/bear/s3scan)](https://github.com/bear/s3scan) |
+| [threatmodel-for-aws-s3](https://github.com/trustoncloud/threatmodel-for-aws-s3) | A framework for modeling threat scenarios for S3 bucket security. | [![last-commit](https://badgen.net/github/last-commit/trustoncloud/threatmodel-for-aws-s3)](https://github.com/trustoncloud/threatmodel-for-aws-s3) |
+| [S3-account-search](https://github.com/WeAreCloudar/s3-account-search) | Searches for Amazon S3 buckets across multiple AWS accounts. | [![last-commit](https://badgen.net/github/last-commit/WeAreCloudar/s3-account-search)](https://github.com/WeAreCloudar/s3-account-search) |
+
+### Security Automation & Scanning
+
+| Tool Name | Description | Last Commit |
+|-----------|-------------|-------------|
+| [falco](https://github.com/falcosecurity/falco) | A security monitoring tool for containers and cloud-native applications. | [![last-commit](https://badgen.net/github/last-commit/falcosecurity/falco)](https://github.com/falcosecurity/falco) |
+| [panther-analysis](https://github.com/panther-labs/panther-analysis) | A platform for monitoring and analyzing security data from AWS environments. | [![last-commit](https://badgen.net/github/last-commit/panther-labs/panther-analysis)](https://github.com/panther-labs/panther-analysis) |
+| [cloudquery](https://github.com/cloudquery/cloudquery) | A tool for querying and aggregating cloud resources across different platforms. | [![last-commit](https://badgen.net/github/last-commit/cloudquery/cloudquery)](https://github.com/cloudquery/cloudquery) |
 
 ---
 
@@ -24,27 +80,6 @@
 | [Smart Assessment](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/plan/smart-assessment) | Microsoft tool for assessing cloud adoption. | N/A |
 | [UntitledGooseTool](https://github.com/cisagov/untitledgoosetool) | A security tool for M365 tenant enumeration. | [![last-commit](https://badgen.net/github/last-commit/cisagov/untitledgoosetool)](https://github.com/cisagov/untitledgoosetool) |
 | [Monkey365](https://github.com/silverhack/monkey365) | A tool for security consultants to conduct security reviews on M365, Azure subscriptions, and Azure AD. | [![last-commit](https://badgen.net/github/last-commit/silverhack/monkey365)](https://github.com/silverhack/monkey365) |
-| [Purple Knight](https://purple-knight.com) | Active Directory security assessment tool. | N/A |
-| [MFASweep](https://github.com/dafthack/MFASweep) | Tool to check if MFA is enabled on multiple Microsoft Services. | [![last-commit](https://badgen.net/github/last-commit/dafthack/MFASweep)](https://github.com/dafthack/MFASweep) |
-| [GraphRunner](https://github.com/dafthack/GraphRunner) | A post-exploitation toolset for interacting with Microsoft Graph API. | [![last-commit](https://badgen.net/github/last-commit/dafthack/GraphRunner)](https://github.com/dafthack/GraphRunner) |
-| [FalconHound](https://github.com/FalconForceTeam/FalconHound) | Blue team tool for automating BloodHound to interact with SIEMs and log aggregation tools. | [![last-commit](https://badgen.net/github/last-commit/FalconForceTeam/FalconHound)](https://github.com/FalconForceTeam/FalconHound) |
-| [Microsoft-Cloud-Group-Analyzer](https://github.com/jasperbaes/Microsoft-Cloud-Group-Analyzer) | A tool for analyzing Microsoft cloud groups. | [![last-commit](https://badgen.net/github/last-commit/jasperbaes/Microsoft-Cloud-Group-Analyzer)](https://github.com/jasperbaes/Microsoft-Cloud-Group-Analyzer) |
-| [ADOKit](https://github.com/xforcered/ADOKit) | Azure DevOps Services Attack Toolkit. | [![last-commit](https://badgen.net/github/last-commit/xforcered/ADOKit)](https://github.com/xforcered/ADOKit) |
-| [TeamFiltration](https://github.com/Flangvik/TeamFiltration) | A cross-platform framework for enumerating, spraying, exfiltrating, and backdooring O365 AAD accounts. | [![last-commit](https://badgen.net/github/last-commit/Flangvik/TeamFiltration)](https://github.com/Flangvik/TeamFiltration) |
-
----
-
-## AWS
-
-| Tool Name | Description | Last Commit |
-|-----------|-------------|-------------|
-| [ZeusCloud](https://github.com/Zeus-Labs/ZeusCloud) | Open source cloud security tool. | [![last-commit](https://badgen.net/github/last-commit/Zeus-Labs/ZeusCloud)](https://github.com/Zeus-Labs/ZeusCloud) |
-| [cloudfox](https://github.com/BishopFox/cloudfox) | Automates situational awareness for cloud penetration tests. | [![last-commit](https://badgen.net/github/last-commit/BishopFox/cloudfox)](https://github.com/BishopFox/cloudfox) |
-| [apeman](https://github.com/hotnops/apeman) | AWS Attack Path Management Tool for simulating attacks. | [![last-commit](https://badgen.net/github/last-commit/hotnops/apeman)](https://github.com/hotnops/apeman) |
-| [pacu](https://github.com/RhinoSecurityLabs/pacu) | AWS exploitation framework designed for testing AWS environments. | [![last-commit](https://badgen.net/github/last-commit/RhinoSecurityLabs/pacu)](https://github.com/RhinoSecurityLabs/pacu) |
-| [smogcloud](https://github.com/BishopFox/smogcloud) | Finds AWS cloud assets that are exposed unintentionally. | [![last-commit](https://badgen.net/github/last-commit/BishopFox/smogcloud)](https://github.com/BishopFox/smogcloud) |
-| [Redboto](https://github.com/ihamburglar/Redboto) | Red team scripts for AWS exploitation. | [![last-commit](https://badgen.net/github/last-commit/ihamburglar/Redboto)](https://github.com/ihamburglar/Redboto) |
-| [cartography](https://github.com/cartography-cncf/cartography) | A Python tool that consolidates infrastructure assets in AWS into an intuitive graph view. | [![last-commit](https://badgen.net/github/last-commit/cartography-cncf/cartography)](https://github.com/cartography-cncf/cartography) |
 
 ---
 
@@ -53,7 +88,3 @@
 | Tool Name | Description | Last Commit |
 |-----------|-------------|-------------|
 | *No tools added yet* | Feel free to add any GCP security tools you think are useful. | N/A |
-
----
-
-I probably missed some tools in the conversations, so don't hesitate to add them!
